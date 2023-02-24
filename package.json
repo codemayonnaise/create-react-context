@@ -1,10 +1,10 @@
 {
-  "name": "create-react-context",
-  "version": "0.3.0",
+  "name": "@codemayonnaise/create-react-context",
+  "version": "0.3.1",
   "description": "Polyfill for the proposed React context API",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "repository": "https://github.com/thejameskyle/create-react-context",
+  "repository": "https://github.com/codemayonnaise/create-react-context",
   "author": "James Kyle <me@thejameskyle.com>",
   "license": "MIT",
   "keywords": [
@@ -31,7 +31,7 @@
   },
   "peerDependencies": {
     "prop-types": "^15.0.0",
-    "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
+    "react": ">=16.8.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
